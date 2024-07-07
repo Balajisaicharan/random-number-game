@@ -3,7 +3,7 @@ body {
     text-align: center;
     color: hwb(5 12% 17%);
     background-image: url('https://wallpapers.com/images/hd/minimalist-black-math-pi-0eazc5s16qupbusv.webp');
-    background-size: cover; /* Optional: Adjusts the size of the background image */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
