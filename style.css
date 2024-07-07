@@ -1,27 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    color: hwb(5 12% 17%);
+    margin: 50px;
+    color:  #c8cb18;
     background-image: url('background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
 
-input[type="number"], button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px;
+input, select {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid  #c8cb18; 
+    border-radius: 5px;
 }
 
 button {
+    padding: 12px 16px;
+    font-size: 18px;
+    background-color: #c8cb18;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
-#feedback {
-    font-size: 18px;
+.result {
     margin-top: 20px;
+    font-size: 20px; 
+    text-align: center; 
 }
 
-#attempts {
-    margin-top: 10px;
+#temperature {
+    border: 2px solid  #c8cb18;
+    border-radius: 5px;
+    padding: 12px;
+    width: calc(20% - 24px);
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #c8cb18;
+    text-align: center; 
 }
